@@ -1,12 +1,4 @@
-/**
- * @author candy&M
- * @email candy_junxiu@163.com
- * @create date 2018-10-12 11:24:37
- * @modify date 2018-10-12 11:24:37
- * @desc [小程序基础获取设置]
-*/
-
-const jt_getSystem = (function () {//获取设备信息
+const getSystem = (function () {//获取设备信息
   let System;
   return function () {
     if (!System) {
@@ -31,7 +23,7 @@ const getNavigationBarHeight = (function(){//获取导航条高度，用于消�
     let navigationBarHeight;
     return function(){
       if(!navigationBarHeight){
-        let System = jt_getSystem(),
+        let System = getSystem(),
             WXVersion = System.version,
             wxnavigationBarHeight = System.statusBarHeight,
             splitWXV = WXVersion.split("."),
@@ -49,7 +41,7 @@ function topNavBarHeight(height){//消息弹框离顶部高度
 
 
 module.exports = {
-  jt_getSystem,
+  getSystem,
   callPhone,
   topNavBarHeight
 }
