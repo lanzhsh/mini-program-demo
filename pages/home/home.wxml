@@ -1,0 +1,13 @@
+<navigation
+  title="主页"
+  back="{{true}}"
+  home="{{true}}"
+/>
+<view class="home d_flex_column">
+  这是主页面
+  <div>{{homeVal}}</div>
+</view>
+<homeCom
+  content="我是home传入homeCom的content值"
+  bind:toHomeVal="toHomeVal"
+/>

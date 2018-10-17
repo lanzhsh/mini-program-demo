@@ -1,0 +1,6 @@
+<navigation
+  title="购物车"
+  back="{{true}}"
+  home="{{true}}"
+/>
+<view class="cart-shop">这是购物车页面</view>

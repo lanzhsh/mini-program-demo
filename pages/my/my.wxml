@@ -1,0 +1,6 @@
+<navigation
+  title="我的"
+  back="{{true}}"
+  home="{{true}}"
+/>
+<view class="my">这是我的页面</view>

@@ -1,0 +1,6 @@
+<navigation
+  title="分类"
+  back="{{true}}"
+  home="{{true}}"
+/>
+<view class="classify">这是分类页面</view>

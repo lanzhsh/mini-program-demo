@@ -1,0 +1,6 @@
+<navigation
+  title="详情"
+  back="{{true}}"
+  home="{{true}}"
+/>
+<view class="detail-one">这是商品详情页</view>

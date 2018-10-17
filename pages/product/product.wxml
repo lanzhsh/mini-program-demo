@@ -1,0 +1,9 @@
+<navigation
+  title="产品"
+  back="{{true}}"
+  home="{{true}}"
+/>
+<view class="cart-shop">
+  这是产品页面
+  <button bindtap="toDetailOne">点击跳转至详情页</button>
+</view>
