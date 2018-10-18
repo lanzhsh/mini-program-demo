@@ -46,7 +46,7 @@ Component({
     // 清除页面栈，回到个人中心首页
     _goHome() {
       wx.reLaunch({
-        url: '/pages/user-center/user-center'
+        url: '/pages/my/my'
       })
     }
   }

@@ -17,5 +17,6 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  text-align:center;
+  margin-top: 200rpx;
 }

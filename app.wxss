@@ -1,5 +1,6 @@
 /* 引入iconfont */
 @import "./styles/iconfont.wxss";
+@import "./styles/weui.wxss";
 
 .container {
   font-size: 30rpx;

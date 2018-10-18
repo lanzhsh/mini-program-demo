@@ -4,8 +4,7 @@
     "pages/classify/classify",
     "pages/product/product",
     "pages/cartShop/cartShop",
-    "pages/my/my",
-    "pages/logs/logs"
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -55,6 +54,12 @@
       "pages": [
         "pages/detailOne/detailOne"
       ]
-  }
+    },
+    {
+      "root": "subs/auth",
+      "pages": [
+        "pages/auth/auth"
+      ]
+    }
   ]
 }

@@ -2,11 +2,11 @@
 <view class="navigation" style="padding-top: {{statusBarHeight}}px">
   <view class="left" style="top: {{statusBarHeight}}px">
     <view class="back" wx:if="{{back}}" bindtap="_goBack">
-      <view class="iconfont icon-icon_back"></view>
+      <view class="iconfont icon_goback"></view>
     </view>
     <view class="home" wx:if="{{home}}" bindtap="_goHome">
       <!-- <image class="img" mode="aspectFill" src="/images/test.jpg"></image> -->
-      <div class="picture iconfont icon_picture"></div>
+      <div class="picture iconfont icon_my"></div>
     </view>
   </view>
   <view class="title">{{title}}</view>

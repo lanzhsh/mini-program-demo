@@ -1,5 +1,7 @@
 // pages/home/home.js
 // import {request} from '../../utils/request';
+//获取应用实例
+const app = getApp();
 Page({
 
   //页面初始数据
@@ -22,40 +24,30 @@ Page({
 
   },
 
-  //生命周期函数--监听页面显示
-  onShow: function () {
-
-  },
-
-  //生命周期函数--监听页面隐藏
-  onHide: function () {
-
-  },
-
-  //生命周期函数--监听页面卸载
-  onUnload: function () {
-
-  },
-
-  //页面相关事件处理函数--监听用户下拉动作
-  onPullDownRefresh: function () {
-
-  },
-
-  //页面上拉触底事件的处理函数
-  onReachBottom: function () {
-
-  },
-
   //用户点击右上角分享
   onShareAppMessage: function () {
-
+    return {
+ 
+      title: '自定义分享标题',
+ 
+      desc: '自定义分享描述',
+ 
+      path: '/pages/home/home'
+ 
+    }
   },
 
   //子组件传入父组件值
   toHomeVal:function(e){
     this.setData({
       homeVal:e.detail.key
+    })
+  },
+
+  //获取用户信息
+  toAuth:function(){
+    wx.navigateTo({
+      url:'/subs/auth/pages/auth/auth'
     })
   }
 })
