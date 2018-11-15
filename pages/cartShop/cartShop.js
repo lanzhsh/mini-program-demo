@@ -1,4 +1,7 @@
 // page/component/new-pages/cart/cart.js
+import api from '../../utils/api'//导入公共接口
+import request from '../../utils/request'//导入公共接口
+
 Page({
   data: {
     carts:[],               // 购物车列表
@@ -7,7 +10,8 @@ Page({
     selectAllStatus:true,    // 全选状态，默认全选
     obj:{
         name:"hello"
-    }
+    },
+    // getData:`${api}/teaching/getData`//获取数据接口
   },
   onShow() {
     this.setData({

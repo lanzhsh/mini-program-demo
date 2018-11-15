@@ -12,6 +12,7 @@
 />
 
 <button class="weui-btn" type="primary" bindtap="toAuth">跳转授权</button>
+<button class="weui-btn" type="primary" bindtap="toDownLoad">跳转下载</button>
 
 <view class="page">
     <view class="page__hd">

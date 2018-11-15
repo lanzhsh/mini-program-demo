@@ -49,5 +49,12 @@ Page({
     wx.navigateTo({
       url:'/subs/auth/pages/auth/auth'
     })
+  },
+
+  //跳转下载
+  toDownLoad(){
+    wx.navigateTo({
+      url:'/subs/links/pages/downlaod/downlaod'
+    })
   }
 })
